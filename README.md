@@ -18,7 +18,7 @@ Skilled in C++, Python, and JavaScript, with ongoing development in MERN stack t
 Strong interest in Machine Learning and software development, with a commitment to continuous learning and innovation. Passionate about solving complex problems and viewing debugging as a key step toward innovation.
 
 
-## Technical Skills
+## Skills and Tools
 
 - **Programming Languages:** C, C++, Java, Python, PHP, JavaScript (ES6+)
 - **Web Technologies:** HTML5, CSS3, Tailwind CSS, Bootstrap, React.js (learning)
