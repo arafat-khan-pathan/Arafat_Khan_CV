@@ -21,8 +21,7 @@ Strong interest in Machine Learning and software development, with a commitment 
 ## Technical Skills
 
 - **Programming Languages:** C, C++, Java, Python, PHP, JavaScript (ES6+)
-- **Web Technologies:** HTML5, CSS3, Tailwind CSS, Bootstrap
-- **Frontend:** React.js (current focus)
+- **Web Technologies:** HTML5, CSS3, Tailwind CSS, Bootstrap, React.js (learning)
 - **Backend & Database:** Node.js (learning), Express.js (learning), MySQL
 - **Tools & Platforms:** Git, GitHub, VS Code, AI-assisted development tools
 
