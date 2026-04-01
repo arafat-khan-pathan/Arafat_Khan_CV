@@ -11,7 +11,7 @@ Email: arafatkhanpathan.me@gmail.com <br>
 
 ## Professional Summary
 
-Dedicated and motivated CSE student at **United International University** with a strong foundation in programming and problem-solving. Maintains a consistent academic record with a GPA of 5.00/5.00 in previous education. 
+Dedicated and motivated CSE student at <span style="color:orange">**United International University**</span> with a strong foundation in programming and problem-solving. Maintains a consistent academic record with a GPA of 5.00/5.00 in previous education. 
 <br> <br>
 Skilled in C++, Python, and JavaScript, with ongoing development in MERN stack technologies. Experienced in applying debugging techniques, structured documentation, and AI-assisted tools to enhance development efficiency.
  <br> <br> 
