@@ -29,10 +29,9 @@ Strong interest in Machine Learning and software development, with a commitment 
 
 
 - **B.Sc. in Computer Science & Engineering (CSE)** - United International University (UIU), Expected Graduation: 2027/2028
-- **Alim (Higher Secondary Certificate)** - Tamirul Millat Kamil Madrasah, 2022, GPA: 5.00
-- **Dakhil (Secondary School Certificate)** - Tamirul Millat Kamil Madrasah, 2020, GPA: 5.00
+- **Higher Secondary Certificate (HSC) - Alim** - Tamirul Millat Kamil Madrasah | 2022 | GPA: 5.00
+- **Secondary School Certificate (SSC) - Dakhil** - Tamirul Millat Kamil Madrasah | 2020 | GPA: 5.00
 - **Junior Dakhil Certificate (JDC)** - Tamirul Millat Kamil Madrasah, 2017, GPA: 5.00
-- **Primary Education Completion (PEC)** - Board Exam, 2014, GPA: 5.00
 
 
 ## Projects and Interests
