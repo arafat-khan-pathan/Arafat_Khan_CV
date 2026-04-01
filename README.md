@@ -49,6 +49,14 @@ Strong interest in Machine Learning and software development, with a commitment 
 
 ## Projects and Interests
 
+- Frontend Projects Collection: https://github.com/arafat-khan-pathan/HTML-CSS-Projects.git
+- Built and showcased beginner-to-intermediate frontend projects using HTML and CSS
+- Competitive Programming Solutions (Codeforces): https://github.com/arafat-khan-pathan/Codeforces.git
+- Uploaded and organized solved Codeforces problems to strengthen problem-solving and algorithmic thinking
+- Web Course Project (Pet Adoption System): https://github.com/arafat-khan-pathan/Web-Project.git
+- Built a pet adoption management system using PHP and MySQL as part of web development coursework
+- Structured Programming Language (SPL) Project: https://github.com/arafat-khan-pathan/SPL__Project.git
+- Academic software development project completed as part of Structured Programming Language coursework
 - Building responsive user interfaces with Tailwind CSS and JavaScript
 - Practicing problem solving in C++ to improve algorithmic thinking
 - Learning modern web development tools and workflows on a daily basis
