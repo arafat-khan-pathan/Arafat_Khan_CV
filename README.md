@@ -5,9 +5,7 @@
 
 Dhaka, Bangladesh <br>
 LinkedIn: https://linkedin.com/in/arafat-khan-pathan  <br>
-GitHub: https://github.com/arafat-khan-pathan <br>
-Email: arafatkhanpathan.me@gmail.com <br> 
-
+Portfolio: https://arafat-khan-pathan.vercel.app  <br>
 
 ## Professional Summary
 
@@ -70,4 +68,17 @@ Strong interest in Machine Learning and software development, with a commitment 
 ## Declaration
 
 I hereby declare that the information provided above is true and accurate to the best of my knowledge.
+
+
+---
+
+## 📱 Contact & Social Media
+
+- **LinkedIn:** [arafat-khan-pathan](https://linkedin.com/in/arafat-khan-pathan)
+- **GitHub:** [arafat-khan-pathan](https://github.com/arafat-khan-pathan)
+- **Facebook:** [arafat.khan.pathann](https://facebook.com/arafat.khan.pathann)
+- **Instagram:** [arafat.khan.pathan](https://instagram.com/arafat.khan.pathan)
+- **Twitter/X:** [\_\_arafat_khan\_\_](https://twitter.com/__arafat_khan__)
+- **Portfolio:** [arafat-khan-pathan.vercel.app](https://arafat-khan-pathan.vercel.app/)
+- **Email:** arafatkhanpathan.me@gmail.com
 
