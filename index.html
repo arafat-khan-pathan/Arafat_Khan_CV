@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arafat Khan | Resume Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        .section-title {
+            position: relative;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #f3f4f6;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #111827;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 60px;
+            height: 2px;
+            background-color: #000;
+        }
+
+        .project-link {
+            transition: all 0.2s ease;
+        }
+
+        .project-link:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
+
+        .nav-link {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 2px;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #2563eb;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.2s ease;
+        }
+
+        .nav-link:hover::after {
+            transform: scaleX(1);
+        }
+
+        @media print {
+            .no-print { display: none; }
+            body { font-size: 12pt; }
+        }
+    </style>
+</head>
+<body class="bg-white" id="top">
+
+    <div class="max-w-4xl mx-auto px-6 pt-20 pb-12 md:pt-24 md:pb-20">
+        <nav class="no-print mb-10 px-4 py-3 bg-white fixed top-0 left-0 right-0 z-20 max-w-4xl mx-auto mt-0">
+            <div class="flex items-center justify-between">
+                <a href="#top" class="text-xl md:text-2xl font-bold tracking-wide text-gray-500 transition hover:text-blue-600 pl-1">Arafat Khan</a>
+                <button id="menu-button" type="button" class="md:hidden text-gray-700 transition hover:text-black" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation menu">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+                <div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
+                    <a href="#summary" class="nav-link transition hover:text-blue-600">Summary</a>
+                    <a href="#skills" class="nav-link transition hover:text-blue-600">Skills</a>
+                    <a href="#education" class="nav-link transition hover:text-blue-600">Education</a>
+                    <a href="#projects" class="nav-link transition hover:text-blue-600">Projects</a>
+                    <a href="#contact" class="nav-link transition hover:text-blue-600">Contact</a>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-3 pt-3 border-t border-gray-100">
+                <div class="flex flex-col gap-2 text-sm font-medium text-gray-700">
+                    <a href="#summary" class="nav-link transition hover:text-blue-600">Summary</a>
+                    <a href="#skills" class="nav-link transition hover:text-blue-600">Skills</a>
+                    <a href="#education" class="nav-link transition hover:text-blue-600">Education</a>
+                    <a href="#projects" class="nav-link transition hover:text-blue-600">Projects</a>
+                    <a href="#contact" class="nav-link transition hover:text-blue-600">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header Section -->
+        <header class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
+            <div>
+                <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-2">Arafat Khan</h1>
+                <p class="text-xl font-medium text-gray-600 mb-4">Computer Science & Engineering Student</p>
+                <p class="text-lg font-semibold text-blue-600 mb-6">Aspiring Software Engineer & ML Enthusiast</p>
+                
+                <div class="space-y-2 text-gray-600">
+                    <p class="flex items-center gap-2"><i class="fas fa-map-marker-alt w-5"></i> Dhaka, Bangladesh</p>
+                    <p class="flex items-center gap-2"><i class="fas fa-envelope w-5"></i> <a href="mailto:arafatkhanpathan.me@gmail.com" class="hover:text-black">arafatkhanpathan.me@gmail.com</a></p>
+                    <div class="flex gap-4 mt-4">
+                        <a href="https://linkedin.com/in/arafat-khan-pathan" target="_blank" class="text-2xl transition hover:text-blue-700 hover:-translate-y-0.5" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/arafat-khan-pathan" target="_blank" class="text-2xl transition hover:text-black hover:-translate-y-0.5" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/arafat.khan.pathann" target="_blank" class="text-2xl transition hover:text-blue-600 hover:-translate-y-0.5" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/arafat.khan.pathan" target="_blank" class="text-2xl transition hover:text-pink-600 hover:-translate-y-0.5" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/__arafat_khan__" target="_blank" class="text-2xl transition hover:text-gray-900 hover:-translate-y-0.5" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-48 h-56 flex-shrink-0">
+                <img src="images/arafat-khan-pathan.png" alt="Arafat Khan Pathan" class="w-full h-full object-cover object-top rounded-2xl shadow-lg border-4 border-gray-50">
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section id="summary" class="mb-12 scroll-mt-24">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="prose prose-slate max-w-none text-gray-700">
+                <p class="mb-4 text-lg">
+                    Dedicated and motivated CSE student at <strong>United International University</strong> with a strong foundation in programming and problem-solving. Maintains a consistent academic record with a GPA of 5.00/5.00 in previous education.
+                </p>
+                <p class="mb-4 text-lg">
+                    Skilled in C++, Python, and JavaScript, with ongoing development in MERN stack technologies. Experienced in applying debugging techniques, structured documentation, and AI-assisted tools to enhance development efficiency.
+                </p>
+                <p class="text-lg">
+                    Strong interest in Machine Learning and software development, with a commitment to continuous learning and innovation. Passionate about solving complex problems and viewing debugging as a key step toward innovation.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills and Tools -->
+        <section id="skills" class="mb-12 scroll-mt-24">
+            <h2 class="section-title">Skills and Tools</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div>
+                    <h3 class="font-bold text-gray-900 mb-2">Programming Languages</h3>
+                    <p class="text-gray-700">C, C++, Java, Python, PHP, JavaScript (ES6+)</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-gray-900 mb-2">Web Technologies</h3>
+                    <p class="text-gray-700">HTML5, CSS3, Tailwind CSS, Bootstrap, React.js (learning)</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-gray-900 mb-2">Backend & Database</h3>
+                    <p class="text-gray-700">MySQL, Node.js (learning), Express.js (learning)</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-gray-900 mb-2">Tools & Platforms</h3>
+                    <p class="text-gray-700">Git, GitHub, VS Code, AI-assisted development tools</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="mb-12 scroll-mt-24">
+            <h2 class="section-title">Education</h2>
+            <div class="space-y-6">
+                <div>
+                    <div class="flex justify-between items-start">
+                        <h3 class="font-bold text-gray-900 mb-2">B.Sc. in Computer Science & Engineering (CSE)</h3>
+                        <span class="text-gray-500 font-medium whitespace-nowrap ml-4">Expected 2027/28</span>
+                    </div>
+                    <p class="text-gray-700">United International University (UIU)</p>
+                </div>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <h3 class="font-bold text-gray-900 mb-2">Higher Secondary Certificate (HSC) - Alim</h3>
+                        <span class="text-gray-500 font-medium ml-4">2022</span>
+                    </div>
+                    <p class="text-gray-700">Tamirul Millat Kamil Madrasah | GPA: 5.00</p>
+                </div>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <h3 class="font-bold text-gray-900 mb-2">Secondary School Certificate (SSC) - Dakhil</h3>
+                        <span class="text-gray-500 font-medium ml-4">2020</span>
+                    </div>
+                    <p class="text-gray-700">Tamirul Millat Kamil Madrasah | GPA: 5.00</p>
+                </div>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <h3 class="font-bold text-gray-900 mb-2">Junior Dakhil Certificate (JDC)</h3>
+                        <span class="text-gray-500 font-medium ml-4">2017</span>
+                    </div>
+                    <p class="text-gray-700">Tamirul Millat Kamil Madrasah | GPA: 5.00</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects and Interests -->
+        <section id="projects" class="mb-12 scroll-mt-24">
+            <h2 class="section-title">Projects and Interests</h2>
+            <div class="space-y-5">
+                <div class="border-l-4 border-gray-100 pl-4">
+                    <h3 class="font-bold text-lg">Frontend Projects Collection</h3>
+                    <a href="https://github.com/arafat-khan-pathan/HTML-CSS-Projects.git" target="_blank" class="project-link text-blue-600 block mb-1 break-all">https://github.com/arafat-khan-pathan/HTML-CSS-Projects.git</a>
+                    <p class="text-gray-600">Built and showcased beginner-to-intermediate frontend projects using HTML and CSS.</p>
+                </div>
+
+                <div class="border-l-4 border-gray-100 pl-4">
+                    <h3 class="font-bold text-lg">Competitive Programming Solutions (Codeforces)</h3>
+                    <a href="https://github.com/arafat-khan-pathan/Codeforces.git" target="_blank" class="project-link text-blue-600 block mb-1 break-all">https://github.com/arafat-khan-pathan/Codeforces.git</a>
+                    <p class="text-gray-600">Uploaded and organized solved Codeforces problems to strengthen problem-solving and algorithmic thinking.</p>
+                </div>
+
+                <div class="border-l-4 border-gray-100 pl-4">
+                    <h3 class="font-bold text-lg">Web Course Project (Pet Adoption System)</h3>
+                    <a href="https://github.com/arafat-khan-pathan/Web-Project.git" target="_blank" class="project-link text-blue-600 block mb-1 break-all">https://github.com/arafat-khan-pathan/Web-Project.git</a>
+                    <p class="text-gray-600">Built a pet adoption management system using PHP and MySQL as part of web development coursework.</p>
+                </div>
+
+                <div class="border-l-4 border-gray-100 pl-4">
+                    <h3 class="font-bold text-lg">Structured Programming Language (SPL) Project</h3>
+                    <a href="https://github.com/arafat-khan-pathan/SPL__Project.git" target="_blank" class="project-link text-blue-600 block mb-1 break-all">https://github.com/arafat-khan-pathan/SPL__Project.git</a>
+                    <p class="text-gray-600">Academic software development project completed as part of Structured Programming Language coursework.</p>
+                </div>
+
+                <ul class="list-disc list-inside space-y-1 text-gray-700 mt-4">
+                    <li>Building responsive user interfaces with Tailwind CSS and JavaScript</li>
+                    <li>Practicing problem solving in C++ to improve algorithmic thinking</li>
+                    <li>Learning modern web development tools and workflows on a daily basis</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Personal Strengths -->
+        <section class="mb-12">
+            <h2 class="section-title">Personal Strengths</h2>
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <li class="flex items-start gap-2">
+                    <i class="fas fa-check-circle text-gray-400 mt-1"></i>
+                    <div>
+                        <span class="font-bold">Resilience:</span> Built through long-distance cycling and mountain trekking
+                    </div>
+                </li>
+                <li class="flex items-start gap-2">
+                    <i class="fas fa-check-circle text-gray-400 mt-1"></i>
+                    <div>
+                        <span class="font-bold">Curiosity:</span> Follows a continuous learning mindset
+                    </div>
+                </li>
+                <li class="flex items-start gap-2">
+                    <i class="fas fa-check-circle text-gray-400 mt-1"></i>
+                    <div>
+                        <span class="font-bold">Growth Mindset:</span> Treats coding errors as learning opportunities
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Languages & Personal Info -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <section>
+                <h2 class="section-title">Languages</h2>
+                <ul class="space-y-1 text-gray-700">
+                    <li><span class="font-bold">Bengali:</span> Native</li>
+                    <li><span class="font-bold">English:</span> Conversational</li>
+                    <li><span class="font-bold">Hindi and Urdu:</span> Verbal understanding</li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="section-title">Personal Information</h2>
+                <ul class="space-y-1 text-gray-700">
+                    <li><span class="font-bold">Date of Birth:</span> June 26, 2004</li>
+                    <li><span class="font-bold">Nationality:</span> Bangladeshi</li>
+                    <li><span class="font-bold">Religion:</span> Islam</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Declaration -->
+        <footer id="contact" class="mt-5 pt-10 border-t-2 border-gray-100 scroll-mt-24">
+            <h2 class="text-sm font-bold uppercase tracking-widest text-gray-400 mb-4">Declaration</h2>
+            <p class="italic text-gray-600">I hereby declare that the information provided above is true and accurate to the best of my knowledge.</p>
+            <div class="mt-8 flex justify-between items-end">
+                <div>
+                    <div class="h-px w-40 bg-gray-300 mb-2"></div>
+                    <p class="text-sm font-bold">Arafat Khan</p>
+                </div>
+                <p class="text-xs text-gray-400 ">Dhaka, Bangladesh • 2025</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const menuButton = document.getElementById('menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        if (menuButton && mobileMenu) {
+            menuButton.addEventListener('click', () => {
+                const isHidden = mobileMenu.classList.toggle('hidden');
+                menuButton.setAttribute('aria-expanded', String(!isHidden));
+            });
+
+            mobileMenu.querySelectorAll('a').forEach((link) => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    menuButton.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+    </script>
+
+</body>
+</html>
