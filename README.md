@@ -79,6 +79,6 @@ I hereby declare that the information provided above is true and accurate to the
 - **Facebook:** [arafat.khan.pathann](https://facebook.com/arafat.khan.pathann)
 - **Instagram:** [arafat.khan.pathan](https://instagram.com/arafat.khan.pathan)
 - **Twitter/X:** [\_\_arafat_khan\_\_](https://twitter.com/__arafat_khan__)
-- **Portfolio:** [arafat-khan-pathan.vercel.app](https://arafat-khan-pathan.vercel.app/)
+- **Portfolio:** https://arafat-khan-pathan.github.io/Arafat_Khan_CV
 - **Email:** arafatkhanpathan.me@gmail.com
 
